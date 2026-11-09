@@ -10,6 +10,7 @@ It has a power button, a BIOS, a boot screen, a setup wizard, a lock screen and 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Single file](https://img.shields.io/badge/single-file-ff7a45?style=flat-square)
 ![No install](https://img.shields.io/badge/install-none-brightgreen?style=flat-square)
+[![Live demo](https://img.shields.io/badge/live-demo-ff7a45?style=flat-square)](https://sigeonrestaurantstudios.github.io/RestaurantOS/)
 ![License: AGPL v3](https://img.shields.io/badge/license-AGPLv3-blue?style=flat-square)
 
 <img src="docs/apps.png" alt="RestaurantOS desktop with the Files and Music apps open" width="900" />
@@ -19,6 +20,10 @@ It has a power button, a BIOS, a boot screen, a setup wizard, a lock screen and 
 ---
 
 ## 🚀 Try it
+
+### ▶️ **[Play RestaurantOS live in your browser](https://sigeonrestaurantstudios.github.io/RestaurantOS/)**
+
+Or run it offline:
 
 1. Download **[`RestaurantOS.html`](RestaurantOS.html)**.
 2. Open it in any modern browser.
