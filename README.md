@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🍽️ RestaurantOS 1.0
+# 🍽️ RestaurantOS
 
 **A complete desktop operating system that runs in your browser.**
 It has a power button, a BIOS, a boot screen, a setup wizard, a lock screen and a full desktop with more than 30 apps and games, all in **one HTML file**.
