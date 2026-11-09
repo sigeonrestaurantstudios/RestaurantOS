@@ -1,0 +1,71 @@
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="nlg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--accent2)"/><stop offset="1" style="stop-color:var(--accent)"/></linearGradient>
+    <linearGradient id="gEmber" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb38a"/><stop offset=".5" stop-color="#ff7a45"/><stop offset="1" stop-color="#2ec4b6"/></linearGradient>
+  </defs>
+</svg>
+
+<!-- Power off -->
+<section id="power" class="stage">
+  <div class="pw-wrap">
+    <div class="pw-led" id="pwLed"></div>
+    <button id="powerBtn" aria-label="Power on">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 3v8"/><path d="M6.3 6.8a8 8 0 1 0 11.4 0"/></svg>
+    </button>
+    <h1>RestaurantOS 1.0</h1>
+    <p>Press the power button to start. During startup, press <kbd>DEL</kbd> or <kbd>F2</kbd> for BIOS Setup, or <kbd>F12</kbd> for the Boot Menu.</p>
+  </div>
+</section>
+
+<!-- BIOS POST -->
+<section id="bios" class="stage hidden">
+  <div class="post-head">
+    <div class="post-logo">RESTOTECH</div>
+    <div>RestoTech UEFI Firmware v4.20.1<br><span style="color:#888">Copyright (C) 2026 RestoTech Systems. All rights reserved.</span></div>
+    <div class="post-energy">◆ ENERGY<br>EFFICIENT</div>
+  </div>
+  <div id="biosLines"></div>
+  <div class="post-foot">
+    <span>Press <b style="color:#fff">DEL</b> to enter SETUP &nbsp;·&nbsp; <b style="color:#fff">F12</b> Boot Menu &nbsp;·&nbsp; <b style="color:#fff">ESC</b> Skip</span>
+    <span><button id="biosEnterBtn">Enter Setup</button> <button id="bootMenuBtn">Boot Menu</button></span>
+  </div>
+</section>
+
+<section id="biosSetup" class="stage hidden"></section>
+<section id="bootMenu" class="stage hidden"></section>
+<section id="recovery" class="stage hidden"></section>
+
+<!-- Boot splash -->
+<section id="boot" class="stage hidden">
+  <div class="boot-wrap" id="bootWrap"></div>
+</section>
+
+<!-- Setup / OOBE -->
+<section id="oobe" class="stage hidden"><canvas id="oobeCanvas"></canvas></section>
+
+<!-- Lock screen -->
+<section id="lock" class="stage hidden"></section>
+
+<!-- Desktop -->
+<section id="os" class="stage hidden">
+  <div id="wallpaper"></div>
+  <div id="desktop"><div id="icons"></div><div id="selbox"></div></div>
+  <div id="winLayer"></div>
+  <div id="snapPreview"></div>
+  <div id="taskview"></div>
+  <div id="spot"></div>
+  <div id="switcher" class="glass"></div>
+  <div id="toasts"></div>
+  <div id="osd" class="glass"></div>
+  <div id="taskbar" class="glass"></div>
+  <div id="startMenu" class="flyout glass"></div>
+  <div id="quick" class="flyout glass"></div>
+  <div id="notifPanel" class="flyout"></div>
+  <div id="widgets" class="flyout glass"></div>
+  <div id="screensaver"><canvas id="ssCanvas"></canvas></div>
+</section>
+
+<section id="shutdown" class="stage hidden"></section>
+<section id="sleep" class="stage hidden"></section>
+<section id="bsod" class="stage hidden"></section>
+<div id="overlays"><div id="nightLight"></div><div id="dim"></div></div>
